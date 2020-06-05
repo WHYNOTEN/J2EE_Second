@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>西南石油大学电子邮件系统</title>
+    <link href="CSS/index.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+<div id="page">
+    <div id="page_head">
+        <div id="logo">
+            <img src="images\login_logo.png" />
+        </div>
+    </div>
+    <div id="page_body">
+        <form  id='login_form' action="login" method="post">
+            <div id="login">
+                <div id="loginTitle"><b>账号登录</b></div>
+                <div id="tip">请填写用户名</div>
+                <div class="textitem1">
+                    <input style="width:320px;height:30px"id="input_user"type="text" name="txtName"placeholder="用户名">
+                </div>
+                <div class="textitem2">
+                    <input style="width:320px;height:30px"id="input_password"type="text" name="txtPwd"placeholder="密码">
+                </div>
+                <div style="position:absolute;left:30px;top:220px;width:320px">
+                    <span style="color:red;float:left">学生选择@stu.swpu.edu.cn</span>
+                    <a href="#" style="float:right;">忘记密码</a>
+                </div>
+                <div style="position:absolute;left:30px;top:260px;width:320px">
+                    <input style="float:right;background:url(images/login_btn.jpg);"class="btn"type="submit" value="登 陆">
+                </div>
+            </div>
+        </form>
+    </div>
+    <div id="page_foot">
+        西南石油大学
+    </div>
+</div>
+</body>
+</html>
